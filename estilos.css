@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: revert-layer,arial;
+	font-size: 16px;
+	background: dodgerblue;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px;
+
+}
+
+header{
+	background: lightcyan ;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+	list-style: none;
+	padding: 15px; 
+}
+
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+	padding: 15px;
+	color: black;
+}
+
+header nav ul li a:hover{
+	background: darkcyan;
+	color: lightcyan;
+}
+
+.main{
+	width: 680px;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 99%;
+}
+
+.main .post{
+	padding: 40px;
+	background: lightsteelblue;
+}
+
+.main .post h2{
+	color: black;
+	margin-bottom: 20px;
+}
+
+.main .post h3{
+	color: black;
+	margin-bottom: 20px;
+}
+
+.main .post p{
+	color: black;
+	line-height: 27px;
+	margin-bottom: 20px;
+	}
+
+aside{
+	width: 320px;
+	background: lightsteelblue;
+	color: black;
+	overflow: hidden;
+
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget h2{
+	color: black ;
+	border-bottom: 1px solid blue ;
+	margin: 15px;
+	text-align: center; /**/
+}
+
+aside .widget ul{
+	list-style: none;
+	padding: 20px ;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid royalblue;
+	padding: 10px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: dodgerblue;
+	display: inline-block;
+}
+
+aside .widget ul li a:hover{
+	background: dodgerblue ;
+	color: white ;
+}
+
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+	padding: 20px ;
+}
+
+footer{
+	width: 1000px;
+	background: darkcyan ;
+	padding: 40px;
+	color: white;
+	overflow: hidden;
+ }
